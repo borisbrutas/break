@@ -1,3 +1,18 @@
+## METACRAFTERS CHALLENGE
+
+### OBESERVATIONS
+Break code: 
+ - It uses react JS as front end UI on interacting with the smart contract.
+- Uses a locally hosted RPC node to test out the program so that transactions are executed faster
+- The logic behind creating transaction is more robust as it has more logic to handle different transaction response as compare to our code that the logic is straight forward
+- The code utilises a javascript worker to execute transactions and this enables a separate thread to run send the transaction thus making it faster
+
+Accounts Observation:
+ - In the code there is a separate module that allows to control accounts dynamically
+ - It also allows account deactivation dynamically
+
+
+
 ## Break Solana Game [![Build Status](https://github.com/solana-labs/break/actions/workflows/break_action.yml/badge.svg?branch=main)](https://github.com/solana-labs/break/actions/workflows/break_action.yml/badge.svg?branch=main)
 
 ### How it works
@@ -170,3 +185,6 @@ https://break.solana.com/game?test
 - [React](https://github.com/facebook/react/) - Framework
 - [TypeScript](https://www.typescriptlang.org/) - Primary language
 - [Torus](https://tor.us/) - Wallet Key Management
+
+
+
